@@ -1,0 +1,28 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+
+
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    --cor-de-fundo: rgb(60, 63, 221);
+    --branco: #FFFFFF;
+    --vermelho: #e34846;
+    --fonte_principal: "Roboto";
+    --azul: #414d5d;
+    }
+
+
+.Murilo{
+    width: 70%;
+    }
+
+
+body {
+    background-color: var(--azul);
+    font-family: var(--fonte_principal);
+    font-size: 16px;
+    font-weight: 400;
+    }
+

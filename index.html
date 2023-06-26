@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Murilo Motos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+<header class="cabecalho">
+<div class="container">
+<input type="checkbox" id="menu" class="container--botao">
+<label for="menu">
+<span class="cabecalho_menu_hamburguer container_imagem"></span>
+</label>
+<ul class="lista-menu">
+<li class="lista-menu-titulo">ÁREAS</li>
+<li class="lista-menu-item">
+<a href="#" class="lista_menu-link">Troca de Óleo</a>
+</li>
+<li class="lista-menu-item">
+<a href="#" class="lista_menu-link">Elétrica</a>
+</li>
+<li class="lista-menu-item">
+<a href="#" class="lista_menu-link">Freios</a>
+</li>
+<li class="lista-menu-item">
+<a href="#" class="lista_menu-link">Motores</a>
+</li>
+</ul>
+<img class="Murilo" src="img/murilo motos logo.jpg" alt="murilo logo">
+</div>
+
+<div class="container">
+<a href="#"><img src="img/Compras.svg" alt="Compras" class="container_imagem"></a>
+<a href="#"><img src="img/Usuário.svg" alt="Usuario" class="container_imagem"></a>
+
+
+
+</div>
+</header>
+<section class="banner">
+<h2 class="banner__titulo">MURILO MOTOS</h2>
+<p class="banner__texto">Oficina mecânica e Concessionária de motocicletas
+</p>
+
+<input type="search" class="banner_pesquisa" placeholder="Encontre sua próxima moto">
+</section>
+<section class="carrossel">
+<h2 class="carrossel_titulo">VENDAS</h2>
+
+<!-- Slider main container -->
+<div class="swiper">
+<!-- Additional required wrapper -->
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+<div class="swiper-wrapper">
+<!-- Slides -->
+<div class="swiper-slide"><img src="img/160.webp" alt="160"></div>
+<div class="swiper-slide"><img src="img/hondacb500.webp" alt="cb500"></div>
+<div class="swiper-slide"><img src="img/gsx.webp" alt="ducati"></div>
+<div class="swiper-slide"><img src="img/ducati.webp" alt="ducati"></div>
+<div class="swiper-slide"><img src="img/bmw f800.webp" alt="f800"></div>
+
+
+
+
+
+
+
+
+...
+</div>
+
+                    
+<!-- If we need navigation buttons -->
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+                    
+<!-- If we need scrollbar -->
+<div class="swiper-scrollbar"></div>
+</div>
+
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper', {
+spaceBetween: 10,
+slidesPerView: 3,
+pagination: {
+el: '.swiper-pagination',
+type: 'bullets',
+},
+});
+
+</script>
+
+<div> 
+
+</div>
+
+</body>
+
+</html>
